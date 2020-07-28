@@ -1,4 +1,4 @@
-package utilities;
+package Utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -10,7 +10,6 @@ public class Config {
 
     static {
         properties = new Properties();
-
         String path = "configuration.properties";
 
         try {
